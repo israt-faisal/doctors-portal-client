@@ -1,0 +1,37 @@
+.contact-box{
+        background-image: url(../../../images/appointmentBg.png);
+        background-repeat: no-repeat;
+        position: relative;
+        height: 600px;
+        background-position: center center;
+        margin-top: 150px ;
+        padding-top: 50px;
+    
+    }
+.contact-box::before{
+    content: "";
+    display: block;
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    background: rgb(36, 41, 73);
+    opacity: .8;
+    top: 0;
+
+}
+.text-color-contact{
+   color: #1cc7c1;
+    opacity: .8;
+   
+}
+
+.field{
+    opacity: .8;
+   padding: 0px 200px 0px 200px; 
+}
+
+.btn{
+    background: linear-gradient(#19D3AE, #0FCFEC);
+   height: 50px;
+   color:white;
+}
