@@ -3,6 +3,8 @@ import winson from '../../../images/winson.png';
 import queenson from '../../../images/queenson.png';
 import twinson from '../../../images/twinson.png';
 import TestimonialDetail from '../TestimonialDetail/TestimonialDetail';
+import quote from '../../../images/quote.png';
+import './Testimonial.css';
 
 const testimonialData= [
     {
@@ -32,6 +34,9 @@ const Testimonial = () => {
           <h5 style={{color:'#1cc7c1'}}>TESTIMONIAL</h5>
           <br/>
            <h1>What's our Patients <br/> Says</h1>
+          </div>
+          <div style={{marginLeft:'60%', marginTop:'-15%'}}>
+          <img src={quote} alt=""/>
           </div>
          <div className="card-deck row justify-content-center">
          {

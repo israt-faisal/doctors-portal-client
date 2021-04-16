@@ -1,0 +1,33 @@
+.appoint-header {
+    height:800px;
+    position:relative;
+    background-image: url('../../../images/chairbBg.png');
+    background-size: cover;
+    margin-bottom: 50px;
+   
+}
+.calendar{
+    transform: translateY(100px);
+    border: none ;
+    border-radius: 10px ;
+    box-shadow: 5px 5px 10px skyblue;
+    height: 400px;
+
+    
+}
+.booking-card{
+    margin: 20px;
+    box-shadow: 5px 5px 30px skyblue;
+    border-radius: 10px;
+    border: none;
+}
+
+.dashboard-calender{
+    margin: 20%;
+    box-shadow: 5px 5px 30px skyblue;
+    border-radius: 10px;
+    border: none;
+    height: 70%;
+    
+
+}

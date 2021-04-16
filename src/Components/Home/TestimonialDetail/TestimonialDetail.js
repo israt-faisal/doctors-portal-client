@@ -3,7 +3,7 @@ import React from 'react';
 const TestimonialDetail = ({testimonial}) => {
     return (
        <div className="card-deck col-md-3 mt-5">
-            <div className="card" style={{height:'300px'}}>
+            <div className="card testi" style={{height:'300px'}}>
             <div className="card-body">
                 <p className="card-text">{testimonial.detail}</p>
                 <div style={{display: 'flex'}}>
